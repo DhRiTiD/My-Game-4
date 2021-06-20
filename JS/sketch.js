@@ -279,7 +279,7 @@ function draw() {
   spwanObs();
   if(obsGroup.isTouching(ball)){
     ball.destroy();
-    text(GAME OVER!!!)
+    text("GAME OVER!!!");
   }
 
  //ball.collide(d1);
