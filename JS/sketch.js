@@ -278,7 +278,7 @@ function draw() {
 
   spwanObs();
   if(obsGroup.isTouching(ball)){
-    ball.destroy();
+   canvas.destroy();
     text("GAME OVER!!!");
   }
 
